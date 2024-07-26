@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    margin: auto;
+    padding: 15px;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+.inputContainer {
+    display: grid;
+    grid-template-rows: 100px 40px;
+    grid-template-columns: auto auto;
+}
+
+.gridItemOne {
+    font-size: 16px;
+    grid-column-start: span 2;
+}
+
+.gridItemTwo {
+    height: 20px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.gridItemThree {
+    font-size: 16px;
+    padding: 4px;
+}
